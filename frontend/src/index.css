@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+body {
+  background: #252424;
+  margin: 0;
+  font-family: "Poppins";
+}
+header {
+  background: #544e4e;
+}
+
+header .container {
+  max-width: 87.5em;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: #c4b6b6;
+  text-decoration: none;
+}
+
+.navtitle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.7em;
+  padding-top: 0.7em;
+  margin-top: 0em;
+}
+
+.pages{
+  max-width: 87.5em;
+  padding: 0.25em;
+  margin: 0 auto;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 7em;
+}
+
+.workouts{
+  margin-left: 5em;
+}
+
+.workout-details {
+  background: #544e4e;
+  border-radius: 4px;
+  margin: 1.25em auto;
+  padding: 1.25em;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+.workout-details h4 {
+  margin: 0 0 0.5em 0;
+  font-size: 1.2em;
+  color: #c4b6b6;
+}
+.workout-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #ccc9c9;
+}
+.workout-details span {
+  position: absolute;
+  top: 1.25em;
+  right: 1.25em;
+  cursor: pointer;
+  background: #c4b6b6;
+  padding: 0.5em;
+  border-radius: 4px;
+  color: #544e4e;
+}
+
+.adder{
+  color: #c4b6b6;
+}
+
+label, input {
+  display: block;
+}
+
+label{
+  color: #746b6b;
+}
+input {
+  background-color: #c4b6b6;
+  color: #544e4e;
+  padding: 0.7em;
+  margin-top: 0.7em;
+  margin-bottom: 1.25em;
+  width: 100%;
+  border: 1px solid #ccc9c9;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background: #544e4e;
+  border: 0;
+  color: #ccc9c9;
+  padding: 0.7em;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+div.error {
+  padding: 0.8em;
+  background: #e99b9b;
+  border: 1px solid rgb(105, 5, 5);
+  color: rgb(105, 5, 5);
+  border-radius: 4px;
+  margin: 20px 0;
+} 
+
+input.error{
+  border: 1px solid #ff0000;
+}
